@@ -1,0 +1,5 @@
+Types,str,endswith
+-----
+str.endswith(s, start) not implemented
+-----
+print('abc'.endswith('c', 1))

@@ -1,0 +1,5 @@
+Sys,Stdin,Test,Test2,Test2.1
+-----
+Checking class nesting and supported
+-----
+print(1+1)

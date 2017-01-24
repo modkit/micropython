@@ -1,0 +1,10 @@
+Sys,Stdin,Test,Test2,Test3,Test4
+-----
+This tests as many features of the uDiff script as possible.
+* Like markdown
+```python
+#Code should fail and print error to stdout while still generating markdown.
+x = 1/0
+```
+-----
+x = 1/0

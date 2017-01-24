@@ -1,0 +1,7 @@
+Types,Exceptions
+-----
+Assign instance variable to exception
+-----
+e = Exception()
+e.x = 0
+print(e.x)

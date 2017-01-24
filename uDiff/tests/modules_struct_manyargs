@@ -1,0 +1,10 @@
+Modules,struct,pack
+-----
+Struct pack with too many args, not checked by uPy
+-----
+import struct
+try:
+    print(struct.pack('bb', 1, 2, 3))
+    print("shouldn't get here")
+except:
+    print('struct.error')

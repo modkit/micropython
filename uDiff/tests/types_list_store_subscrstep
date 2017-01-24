@@ -1,0 +1,7 @@
+Types,list
+-----
+List store with step != 1 not implemented
+-----
+l = []
+l[1:2:3] = []
+print(l)
