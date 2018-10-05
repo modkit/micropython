@@ -28,8 +28,7 @@
 #include "lib/utils/interrupt_char.h"
 
 #define mp_hal_stdin_rx_chr() (0)
-#define mp_hal_stdout_tx_strn mp_hal_stdout_tx_strn_js
-void mp_hal_stdout_tx_strn_js(const char *str, mp_uint_t len);
+void mp_hal_stdout_tx_strn(const char *str, size_t len);
 
 void mp_hal_delay_ms(mp_uint_t ms);
 void mp_hal_delay_us(mp_uint_t us);
